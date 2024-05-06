@@ -1,0 +1,168 @@
+/* HomePage.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    padding: 20px;
+    color: green;
+}
+
+.content-p {
+    color: #6c6868;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.modal {
+
+    width: 33%;
+    height: 55%;
+    min-width: 272px;
+    min-height: 275px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.modal-content {
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.Emailinput {
+    width: 90%;
+    height: 45px;
+    margin: 20px 0;
+    border: none;
+    background: rgba(162, 162, 162, 0.09);
+    border-bottom: 1px solid #080a6f;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.Emailinput:hover {
+    border-bottom: 2px solid #080a6f;
+    transition: border-bottom 0.1s ease;
+
+}
+
+.BackToSigninBTN {
+    /*// Back to Sign In*/
+    background: none;
+    border: none;
+    color: #1f43ff;
+    height: 25px;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    padding: 30px;
+}
+
+.BackToSigninBTN:hover {
+    /*// Back to Sign In*/
+    background: none;
+    border: none;
+    color: #8081ff;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.ContinueBTN {
+    background: #080a6f;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    height: 35px;
+    width: 50%;
+    font-size: 16px;
+    margin-top: 25px;
+
+
+}
+
+.ContinueBTN:hover {
+    background: #1114a8;
+    cursor: pointer;
+}
+
+.ContinueBTN:active {
+    background: rgba(17, 20, 168, 0.6);
+    cursor: pointer;
+}
+
+@media (width < 550px) {
+
+    .modal {
+
+        width: 80%;
+        height: 30%;
+        background-color: white;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .Emailinput {
+        margin-top: 0;
+
+    }
+
+    .BackToSigninBTN {
+
+        padding: 5px;
+    }
+
+    .modal-content.h2 {
+
+    }
+
+}
+
+@media (width < 890px) and (width > 550px) {
+
+    .modal {
+
+        width: 45%;
+        height: 45%;
+        background-color: white;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .Emailinput {
+        margin-top: 0;
+
+    }
+
+    .BackToSigninBTN {
+
+        padding: 5px;
+    }
+
+    .modal-content.h2 {
+
+    }
+
+}

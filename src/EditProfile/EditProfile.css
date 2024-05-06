@@ -1,0 +1,469 @@
+
+.EditPage {
+   width: 1350px;
+    height: 100%;
+    display: flex;
+    background-color: #f3fdff;
+}
+
+.container-EditPage {
+   width: 100%;
+    border-radius: 5px;
+    height: calc(110vh - 75px);
+    background-color: #ffffff;
+    display: flex;
+    scroll-behavior: smooth;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position:     page;
+    z-index: 0;
+}
+.container-titel{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    height: 50px;
+    border-bottom: 2px solid rgba(119, 119, 119, 0.49);
+    margin-bottom: 25px;
+
+}
+.profile-image{
+    display: flex;
+    flex-direction: column;
+    margin-top:10%;
+    width: 10%;
+    margin-right: 0;
+    height: 50%;
+    cursor: pointer;
+
+}
+.btn-editProfile-img{
+    padding-left: 50px;
+    background-image: url('pen-nib-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center;
+    position: fixed;
+    border: 1px solid #595959;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #4f4f4f;
+    margin-top: 13% ;
+    margin-left: 5%;
+}
+.btn-editProfile-img:hover{
+    padding-left: 50px;
+    background-size: 35px;
+    background-position: center;
+    position: fixed;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #e8e8e8;
+    font-size: 25px;
+    border: 1px solid #0000ce;
+    color: #0000ce;
+    cursor: pointer;
+}
+.Chaange-password-EditPage{
+    width: fit-content;
+    height: 100%;
+
+
+}
+.Chaange-password-EditPage button{
+    background:none ;
+    border: 1px solid #002bff;
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+    font-size: 15px;
+    color: #002bff;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.Chaange-password-EditPage button:hover{
+    border: 1px solid #001EC0FF;
+    color: #001ec0;
+    cursor: pointer;
+    background-color: rgba(197, 197, 197, 0.49);
+
+}
+
+.btn-editProfile {
+    height: 35px;
+    width: 200px;
+    border: 1px solid #09af00;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #09af00;
+    background: none;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.btn-editProfile:hover{
+    border: 1px solid #078f00;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #078f00;
+    background-color: rgba(197, 197, 197, 0.49);
+}
+
+.not-valid-btn-editProfile {
+    height: 35px;
+    width: 200px;
+    border: 1px solid #09af00;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #09af00;
+    font-weight: 700;
+    cursor: not-allowed;
+}
+.not-valid-SaveBTN{
+    background:none ;
+    border: 1px solid #484848;
+    border-radius: 10px;
+    height: 35px;
+    width: 23%;
+    font-size: 18px;
+    color: #363636;
+    font-weight: 700;
+    margin-top: 25px;
+    cursor: not-allowed;
+}
+.not-valid-btn-editProfile:hover{
+    border: 1px solid #505050;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #505050;
+    background-color: rgba(197, 197, 197, 0.49);
+}
+
+.d-flex{
+    margin-top:1px;
+}
+.Edit-profile-container{
+    position: absolute;
+    top: 25% ;
+    width: 50%;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Edit-profile-form{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    max-height: 900px;
+
+}
+.input-field-EditPage {
+
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+    border-bottom: 1px solid #080a6f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+.edit-input-label{
+    display: block;
+    width: fit-content;
+    margin-bottom: 5px;
+    font-family: Inter;
+   font-size: 14px;
+    font-weight: 550;
+}
+.edit-input-label-pic{
+    display: block;
+    width: fit-content;
+    margin-top: -20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 550;
+}
+.input-field-second-editProfile {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px ;
+}
+
+.icons-editProfile{
+    font-size: 16px;
+    color: #4f4f4f;
+}
+.container-titel h4{
+    margin-left: 10px;
+    font-family: Inter;
+    font-weight: 550;
+    font-size: 25px;
+    color: #494949;
+}
+.error-message-first-last-editprofile{
+    position: absolute;
+    width: 35%;
+    text-align: left;
+    margin-left: -10px;
+    background-color: rgba(225, 0, 0, 0.87);
+    padding: 10px;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.email-error-message-EditProfile{
+    position: absolute;
+    width:74.4%;
+    text-align: left;
+    margin-left: -10px;
+    background-color: rgba(225, 0, 0, 0.87);
+    padding: 10px;
+    color: white;
+    margin-top: calc(13% );
+    justify-items: flex-end;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.studentNumber-error-message-EditProfile{
+    position: absolute;
+    width:74.4%;
+    text-align: left;
+    margin-left: -10px;
+    background-color: rgba(225, 0, 0, 0.87);
+    padding: 10px;
+    color: white;
+    margin-top: calc(16.5% );
+    justify-items: flex-end;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.err-input-field{
+
+    width: 100%;
+    height: 35px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: 3px solid #ff0000;
+}
+.err-input-field input {
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+}
+.modal-post-img-edit-profile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    horiz-align: center;
+    z-index: 999;
+
+
+}
+.Success-message-Edit-Profile{
+    position: absolute;
+    width: 300px;
+    bottom: 20px;
+    left: 40%;
+    text-align: center;
+    background-color: rgba(177, 255, 131, 0.87);
+    padding: 10px;
+    color: #000000;
+    font-size: 15.5px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.error-message-Edit-Profile {
+    position: absolute;
+    width: 30.05%;
+    text-align: left;
+    margin-left: -10px;
+    margin-top: 9.5%;
+    background-color: rgba(225, 0, 0, 0.87);
+    padding: 10px;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.error-message-Edit-Profile-conf {
+    position: absolute;
+    width: 30.05%;
+    text-align: left;
+    margin-left: -10px;
+    margin-top: 8.1%;
+    background-color: rgba(225, 0, 0, 0.87);
+    padding: 10px;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.SaveBTN{
+    background:none ;
+    border: 1px solid #09af00;
+    border-radius: 10px;
+    height: 35px;
+    width: 23%;
+    font-size: 18px;
+    color: #09af00;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.CloseBTN{
+    background:none ;
+    border: 1px solid #e10000;
+    border-radius: 10px;
+    height: 35px;
+    width: 23%;
+    font-size: 18px;
+    color: #e10000;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.CloseBTN:hover{
+    background: rgba(255, 132, 132, 0.68);
+    color: #ff0000;
+    cursor: pointer;
+}
+.SaveBTN:hover{
+    background: rgba(166, 255, 132, 0.63);
+
+    cursor: pointer;
+    color: #09cc00;
+
+}
+.button-container-EditPage {
+    display:   flex;
+    justify-content: space-around;
+}
+.App-error-message-editProfile-Password{
+    position: absolute;
+    width: 300px;
+    bottom: 50px;
+    text-align: center;
+    background-color: rgba(225, 0, 0, 0.87);
+    padding: 10px;
+    color: white;
+    font-size: 15.5px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.App-error-message-editProfile {
+    position: absolute;
+    width: 300px;
+    bottom: 200px;
+    text-align: center;
+    background-color: rgba(225, 0, 0, 0.87);
+    padding: 10px;
+    color: white;
+    font-size: 15.5px;
+    font-weight: 600;
+    border-radius: 15px;
+
+}
+
+@media (max-width: 1250px) {
+    .Edit-profile-container{
+        position: absolute;
+        top: 0;
+        margin-left: -5%;
+        width: 100%;
+        height: 100%;
+        display: flex;;
+        justify-content: center;
+        align-items: center;
+    }
+    .error-message-Edit-Profile {
+        position: absolute;
+        text-align: left;
+        background-color: rgba(225, 0, 0, 0.87);
+        padding: 10px;
+        color: white;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        width: 90%; /* Adjust the width to fit the screen */
+        min-width: auto; /* Reset the minimum width */
+        margin-left: 5%; /* Adjust the left margin for centering */
+        margin-top: 50px; /* Adjust the top margin as needed */
+    }
+    .error-message-Edit-Profile-conf {
+        position: absolute;
+
+        text-align: left;
+
+        margin-top: 8.1%;
+        background-color: rgba(225, 0, 0, 0.87);
+        padding: 10px;
+        color: white;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        width: 90%; /* Adjust the width to fit the screen */
+        min-width: auto; /* Reset the minimum width */
+        margin-left: 5%; /* Adjust the left margin for centering */
+        margin-top: 8.1%; /* Adjust the top margin as needed */
+    }
+
+}
+@media (max-width: 800px) {
+    .EditPage {
+        width: 100%;
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .container-EditPage {
+        width: 100%;
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .error-message-Edit-Profile {
+        position: absolute;
+        width: 30%;
+        min-width: 300px;
+        text-align: left;
+        margin-left: -10px;
+        margin-top: 125px;
+        background-color: rgba(225, 0, 0, 0.87);
+        padding: 10px;
+        color: white;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .error-message-Edit-Profile-conf {
+        position: absolute;
+        width: 29%;
+        text-align: left;
+        margin-left: -10px;
+        margin-top: 8.1%;
+        background-color: rgba(225, 0, 0, 0.87);
+        padding: 10px;
+        color: white;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    /* Adjust other styles for phone view */
+    /* Add your additional style adjustments here */
+}

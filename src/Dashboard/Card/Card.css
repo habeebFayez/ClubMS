@@ -1,0 +1,100 @@
+
+
+.card-dashboard{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    height: 165px;
+    top: 0;
+    width: 25%;
+    background-color: rgba(207, 255, 192, 0.62);
+    margin-left: 10px;
+    --bs-accordion-btn-focus-box-shadow: ;
+    border-radius: 10px;
+    align-content: start;
+    cursor: pointer;
+
+}
+
+.card-dashboard-red{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    height: 165px;
+    top: 0;
+    width: 25%;
+    background-color: rgba(255, 230, 230, 0.62);
+    margin-left: 10px;
+    --bs-accordion-btn-focus-box-shadow: ;
+    border-radius: 10px;
+    align-content: start;
+    cursor: pointer;
+}
+.tags-card-containar-dashboard-title{
+    margin-left: 25px;
+    color: #236700;
+    font-size: 40px;
+
+}
+.tags-card-containar-dashboard-title-red{
+    margin-left: 25px;
+    color: #d00000;
+    font-size: 40px;
+
+}
+.poster-info-dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 55px;
+    margin: 2%;
+    width: fit-content;
+    min-width: 150px;
+    color:dimgray;
+    font-weight: 400;
+    max-width: 700px;
+}
+.tags-card-tags-card-containar-dashboardcontainar{
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.tags-btn-club-card-dashboard-green{
+    color: #000000;
+    font-size: 11px;
+    font-weight: 600;
+    width: fit-content ;
+    max-width: 100px;
+    min-width: 90px;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50px;
+    background-color: rgba(76, 213, 5, 0.51);
+    color: #282828;
+    margin-left: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+
+}
+.tags-btn-club-card-dashboard-red{
+    color: #000000;
+    font-size: 11px;
+    font-weight: 600;
+    width: fit-content ;
+    max-width: 100px;
+    min-width: 90px;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50px;
+    background-color: rgba(255, 161, 161, 0.51);
+    color: #282828;
+    margin-left: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+
+}

@@ -1,0 +1,37 @@
+.modal-edit-event{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+.input-field-edit-event-first{
+    width:500px;
+    height: 60px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.input-field-edit-event-first div{
+    flex:1;
+}
+.edit-event-input-label{
+    display: block;
+    width: fit-content;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 550;
+}
+.edit-input-label-Description{
+    display: block;
+    width: fit-content;
+    margin-top: -5px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 550;
+}

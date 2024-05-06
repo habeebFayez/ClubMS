@@ -1,0 +1,81 @@
+
+.modal-overlay-verify {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-verify {
+    width: 350px;
+    min-width: 250px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff4cc;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2-verify {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.otp-form {
+    margin-top: 50px;
+}
+
+label-verify {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input-verify {
+
+
+    border-bottom: 1px solid #080a6f;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+button-verify {
+    width: 100%;
+    padding: 10px;
+    background-color: #080a6f;
+    color: #fff;
+    margin-top: 50px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button-verify:hover {
+    background-color: #0056b3;
+}
+
+.error-verify {
+    color: #ff7676;
+    margin-bottom: 10px;
+    text-align: center;
+}

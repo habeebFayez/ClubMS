@@ -1,0 +1,175 @@
+
+.homePage{
+    display: grid;
+    grid-auto-rows: inherit;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+
+}
+
+
+.nav-underline{
+    top: 0;
+    position: sticky;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height:75px;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #f3f7fa;
+    z-index: 99;
+}
+.menu-sidebar{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    width:200px;
+    height:1000px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.pageBody{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    height: calc(100vh);
+    width:850px;
+    background-color: #f3f7fa;
+    display: flex;
+    scroll-behavior: smooth;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+
+}
+.GoUp {
+    position: fixed;
+    bottom: 20px;
+    right: 320px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: #080a6f;
+    background-color: rgb(0, 1, 77);
+    color: #ffffff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    z-index: 0;
+}
+
+.GoUp.visible {
+    display: flex;
+}
+
+/* Optionally, you can add hover styles */
+.GoUp:hover {
+    background-color: rgba(15, 21, 255, 1);
+}
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Background color of the track */
+*::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+}
+
+/* Color of the scrollbar thumb */
+*::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+/* Color of the scrollbar thumb on hover */
+*::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer;
+}
+
+
+/* Customize scrollbar */
+
+.pageBody-side{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    height:100%;
+    width:308px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 1200px) and (min-width: 900px){
+    .menu-sidebar{
+        width:100%;
+    }
+    .pageBody{
+
+        width:935px;
+    }
+    .pageBody-side {
+        display: none; /* Hide the sidebar on smaller screens */
+    }
+}
+@media (max-width: 1070px) {
+    .homePage{
+        width:100%;
+
+    }
+
+    .nav-underline{
+        width: 90%;
+    }
+    .pageBody-side {
+        display: none; /* Hide the sidebar on smaller screens */
+    }
+    .menu-sidebar{
+        width:200px;
+    }
+    .pageBody{
+        margin-left: -5%;
+
+
+        width:700px;
+    }
+}
+@media (max-width: 870px) {
+
+    .homePage{
+        display: flex;
+        flex-direction:column ;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .nav-underline{
+       width: 90%;
+    }
+    .pageBody-side {
+        display: none; /* Hide the sidebar on smaller screens */
+    }
+    .menu-sidebar{
+        display: none;
+    }
+    .pageBody{
+        height: 1000px;
+        width:fit-content;
+    }
+    .pageBody-side {
+        display: none; /* Hide the sidebar on smaller screens */
+    }
+}

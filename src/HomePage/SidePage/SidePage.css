@@ -1,0 +1,94 @@
+.header-SidePage{
+    background-color: #ffffff;
+    width: 90%;
+    justify-items: right;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.SidePage-rest{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    align-items: initial;
+    margin-top: 2%;
+    font-weight: 600;
+    font-size: 14px;
+    min-height: 316px;
+    color:#6c6868;
+    width: 90%;
+    border-bottom: 0px solid gray;
+
+}
+.SidePage-rest p{
+    margin-bottom: 10px;
+}
+.SidePage-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 27.5px;
+    background-color: white;
+
+}
+
+
+
+.SidePage-img-holder{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    padding-top: 5px;
+    width: 100%;
+    position: relative;
+
+}
+.SidePage-img-holder div{
+    padding-left: 5px;
+}
+.SidePage-img-holder :hover{
+    cursor: pointer;
+}
+.SidePage-img-holder h5 {
+    color: darkslategray;
+    font-size: 12px;
+}
+.SidePage-img-holder p {
+    color: dimgray;
+    font-size: 9px;
+}
+.SidePage-img-holder:hover h5{
+    color: #2240ff;
+}
+.SidePage-img-holder:hover p{
+    color: #2240ff;
+}
+
+.seeAll-btn {
+    display: flex;
+    text-align: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 35px;
+    width: 100%;
+    color: #0406dc;
+    border-bottom: 1px solid gray;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    background-color: rgba(210, 248, 255, 0);
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.seeAll-btn:hover {
+    color: #006fff;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
